@@ -26,7 +26,7 @@ class UsernameForm extends Component {
             <div>
               <div>
                   <h2> What is your name? </h2>
-                    <from onSubmit={this.onSubmit}>
+                    <form onSubmit={this.onSubmit}>
                     <input type = "text" placeholder="Your full name " onChange={this.onChange} />
                     <input type = "submit" />
                     </form>
